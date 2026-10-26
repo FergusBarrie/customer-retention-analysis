@@ -1,0 +1,31 @@
+Loaded 69,659 transaction lines for 23,570 customers
+Date range: 1997-01-01 to 1998-06-30
+Missing values: {'customer_id': 0, 'date': 0, 'cds': 0, 'value': 0}
+
+Exact duplicate rows: 255 (0.37% of rows), worth $4,332.88 (0.17% of revenue)
+  Kept. They may be two identical items bought on the same day, and this is the
+  published version of the dataset used in the literature. The effect on revenue
+  is 0.17%, so no conclusion in this project depends on the choice.
+
+Lines with a $0 value: 80 - kept as activity, they add no revenue
+No negative values and no zero-CD lines, so there are no returns or adjustments to separate out.
+
+Transaction lines: 69,659
+Orders (one customer, one day): 67,591
+  1,774 orders (2.6%) have more than one line
+
+Acquisition cohorts (every customer first bought in Q1 1997):
+  1997-01  7,846 customers
+  1997-02  8,476 customers
+  1997-03  7,248 customers
+
+Total revenue: $2,500,315.63
+Repeat buyers: 11,516 of 23,570 (48.9%)
+Average orders per customer: 2.87
+Average order value: $36.99
+Average revenue per customer: $106.08
+
+Wrote E:\Portfolio\projects\03-customer-retention-analysis\data\clean\transactions.csv (69,659 rows)
+Wrote E:\Portfolio\projects\03-customer-retention-analysis\data\clean\orders.csv (67,591 rows)
+Wrote E:\Portfolio\projects\03-customer-retention-analysis\data\clean\customers.csv (23,570 rows)
+Wrote E:\Portfolio\projects\03-customer-retention-analysis\data\clean\cdnow.db (tables: transactions, orders, customers)

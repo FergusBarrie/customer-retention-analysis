@@ -1,0 +1,2 @@
+customers,orders,revenue,avg_order_value,revenue_per_customer,avg_orders_per_customer,repeat_buyers,repeat_buyer_pct,first_acquisition,last_activity
+23570,67591,2500315.63,36.99,106.08,2.87,11516,48.9,1997-01-01,1998-06-30

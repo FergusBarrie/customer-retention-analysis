@@ -1,0 +1,7 @@
+order_band,customers,pct_of_customers,revenue,pct_of_revenue,avg_revenue_per_customer
+1 order,12054,51.1,367602.29,14.7,30.5
+2 orders,4040,17.1,270129.63,10.8,66.86
+3 orders,2205,9.4,229597.26,9.2,104.13
+4-5 orders,2427,10.3,389200.57,15.6,160.36
+6-10 orders,1952,8.3,559105.22,22.4,286.43
+11+ orders,892,3.8,684680.66,27.4,767.58

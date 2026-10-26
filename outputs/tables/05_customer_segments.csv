@@ -1,0 +1,6 @@
+segment,customers,pct_of_customers,revenue,pct_of_revenue,avg_revenue_per_customer,avg_orders,avg_days_first_to_last_order
+Best customers,4356,18.5,1561547.72,62.5,358.48,8.43,382.0
+One-time buyer,12054,51.1,367602.29,14.7,30.5,1.0,0.0
+Light repeat,4843,20.5,257542.52,10.3,53.18,2.29,189.0
+"Occasional, higher value",1402,5.9,242184.37,9.7,172.74,2.55,214.0
+"Frequent, lower value",915,3.9,71438.73,2.9,78.08,4.52,331.0

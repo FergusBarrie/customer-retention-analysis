@@ -1,0 +1,1675 @@
+{
+  "meta": {
+    "project": "Customer behaviour and retention analysis",
+    "dataset": "CDNOW master dataset (Fader and Hardie)",
+    "dataset_url": "https://www.brucehardie.com/datasets/",
+    "description": "The complete purchase history to 30 June 1998 of the 23,570 people who made their first ever purchase at the online CD retailer CDNOW during the first quarter of 1997.",
+    "currency": "USD",
+    "note": "The three cohorts can be compared fairly only to month 15 because the data ends in June 1998."
+  },
+  "headline": {
+    "customers": 23570,
+    "orders": 67591,
+    "revenue": 2500315.63,
+    "avg_order_value": 36.99,
+    "revenue_per_customer": 106.08,
+    "avg_orders_per_customer": 2.87,
+    "repeat_buyer_pct": 48.9,
+    "one_time_buyer_pct": 51.1,
+    "one_time_buyer_revenue_pct": 14.7,
+    "month1_retention_pct": 14.9,
+    "settled_retention_pct": 7.4,
+    "value_per_acquired_customer_15m": 102.74,
+    "first_order_value": 38.08,
+    "first_order_share_of_15m_value_pct": 37.1,
+    "second_order_within_1_month_pct": 35.7,
+    "second_order_within_3_months_pct": 59.8,
+    "top_decile_revenue_pct": 50.9,
+    "top_two_deciles_revenue_pct": 67.7,
+    "top_decile_avg_spend": 540.4,
+    "best_segment_customer_pct": 18.5,
+    "best_segment_revenue_pct": 62.5,
+    "dropoff_after_first_order_pct": 51.1,
+    "dropoff_after_third_order_pct": 29.5,
+    "aov_first_order": 33.29,
+    "aov_tenth_order": 43.3,
+    "cohort_repeat_rate_range": "48.1% to 49.3%",
+    "comparable_months": 15
+  },
+  "cohort_retention": [
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 0,
+      "cohort_customers": 7846,
+      "active_customers": 7846,
+      "orders": 8767,
+      "revenue": 299060.17,
+      "retention_pct": 100.0,
+      "revenue_per_cohort_customer": 38.12,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 1,
+      "cohort_customers": 7846,
+      "active_customers": 1157,
+      "orders": 1565,
+      "revenue": 61041.69,
+      "retention_pct": 14.75,
+      "revenue_per_cohort_customer": 7.78,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 2,
+      "cohort_customers": 7846,
+      "active_customers": 964,
+      "orders": 1286,
+      "revenue": 50683.75,
+      "retention_pct": 12.29,
+      "revenue_per_cohort_customer": 6.46,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 3,
+      "cohort_customers": 7846,
+      "active_customers": 810,
+      "orders": 1056,
+      "revenue": 40655.5,
+      "retention_pct": 10.32,
+      "revenue_per_cohort_customer": 5.18,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 4,
+      "cohort_customers": 7846,
+      "active_customers": 679,
+      "orders": 882,
+      "revenue": 34973.56,
+      "retention_pct": 8.65,
+      "revenue_per_cohort_customer": 4.46,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 5,
+      "cohort_customers": 7846,
+      "active_customers": 736,
+      "orders": 935,
+      "revenue": 34397.9,
+      "retention_pct": 9.38,
+      "revenue_per_cohort_customer": 4.38,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 6,
+      "cohort_customers": 7846,
+      "active_customers": 720,
+      "orders": 962,
+      "revenue": 41009.7,
+      "retention_pct": 9.18,
+      "revenue_per_cohort_customer": 5.23,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 7,
+      "cohort_customers": 7846,
+      "active_customers": 582,
+      "orders": 743,
+      "revenue": 29804.54,
+      "retention_pct": 7.42,
+      "revenue_per_cohort_customer": 3.8,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 8,
+      "cohort_customers": 7846,
+      "active_customers": 559,
+      "orders": 737,
+      "revenue": 27306.22,
+      "retention_pct": 7.12,
+      "revenue_per_cohort_customer": 3.48,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 9,
+      "cohort_customers": 7846,
+      "active_customers": 594,
+      "orders": 802,
+      "revenue": 32100.3,
+      "retention_pct": 7.57,
+      "revenue_per_cohort_customer": 4.09,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 10,
+      "cohort_customers": 7846,
+      "active_customers": 673,
+      "orders": 888,
+      "revenue": 39459.83,
+      "retention_pct": 8.58,
+      "revenue_per_cohort_customer": 5.03,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 11,
+      "cohort_customers": 7846,
+      "active_customers": 634,
+      "orders": 822,
+      "revenue": 33569.08,
+      "retention_pct": 8.08,
+      "revenue_per_cohort_customer": 4.28,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 12,
+      "cohort_customers": 7846,
+      "active_customers": 528,
+      "orders": 665,
+      "revenue": 27214.64,
+      "retention_pct": 6.73,
+      "revenue_per_cohort_customer": 3.47,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 13,
+      "cohort_customers": 7846,
+      "active_customers": 511,
+      "orders": 642,
+      "revenue": 25288.12,
+      "retention_pct": 6.51,
+      "revenue_per_cohort_customer": 3.22,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 14,
+      "cohort_customers": 7846,
+      "active_customers": 664,
+      "orders": 885,
+      "revenue": 37128.74,
+      "retention_pct": 8.46,
+      "revenue_per_cohort_customer": 4.73,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 15,
+      "cohort_customers": 7846,
+      "active_customers": 472,
+      "orders": 591,
+      "revenue": 21988.9,
+      "retention_pct": 6.02,
+      "revenue_per_cohort_customer": 2.8,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 16,
+      "cohort_customers": 7846,
+      "active_customers": 497,
+      "orders": 635,
+      "revenue": 24222.84,
+      "retention_pct": 6.33,
+      "revenue_per_cohort_customer": 3.09,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 17,
+      "cohort_customers": 7846,
+      "active_customers": 498,
+      "orders": 672,
+      "revenue": 27252.08,
+      "retention_pct": 6.35,
+      "revenue_per_cohort_customer": 3.47,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 0,
+      "cohort_customers": 8476,
+      "active_customers": 8476,
+      "orders": 9480,
+      "revenue": 318548.34,
+      "retention_pct": 100.0,
+      "revenue_per_cohort_customer": 37.58,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 1,
+      "cohort_customers": 8476,
+      "active_customers": 1312,
+      "orders": 1706,
+      "revenue": 62587.03,
+      "retention_pct": 15.48,
+      "revenue_per_cohort_customer": 7.38,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 2,
+      "cohort_customers": 8476,
+      "active_customers": 980,
+      "orders": 1272,
+      "revenue": 49247.7,
+      "retention_pct": 11.56,
+      "revenue_per_cohort_customer": 5.81,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 3,
+      "cohort_customers": 8476,
+      "active_customers": 783,
+      "orders": 1010,
+      "revenue": 38306.56,
+      "retention_pct": 9.24,
+      "revenue_per_cohort_customer": 4.52,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 4,
+      "cohort_customers": 8476,
+      "active_customers": 847,
+      "orders": 1076,
+      "revenue": 38565.07,
+      "retention_pct": 9.99,
+      "revenue_per_cohort_customer": 4.55,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 5,
+      "cohort_customers": 8476,
+      "active_customers": 786,
+      "orders": 1013,
+      "revenue": 43194.89,
+      "retention_pct": 9.27,
+      "revenue_per_cohort_customer": 5.1,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 6,
+      "cohort_customers": 8476,
+      "active_customers": 626,
+      "orders": 788,
+      "revenue": 31307.55,
+      "retention_pct": 7.39,
+      "revenue_per_cohort_customer": 3.69,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 7,
+      "cohort_customers": 8476,
+      "active_customers": 619,
+      "orders": 793,
+      "revenue": 29340.71,
+      "retention_pct": 7.3,
+      "revenue_per_cohort_customer": 3.46,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 8,
+      "cohort_customers": 8476,
+      "active_customers": 666,
+      "orders": 885,
+      "revenue": 32458.53,
+      "retention_pct": 7.86,
+      "revenue_per_cohort_customer": 3.83,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 9,
+      "cohort_customers": 8476,
+      "active_customers": 721,
+      "orders": 915,
+      "revenue": 38824.04,
+      "retention_pct": 8.51,
+      "revenue_per_cohort_customer": 4.58,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 10,
+      "cohort_customers": 8476,
+      "active_customers": 661,
+      "orders": 843,
+      "revenue": 34261.46,
+      "retention_pct": 7.8,
+      "revenue_per_cohort_customer": 4.04,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 11,
+      "cohort_customers": 8476,
+      "active_customers": 545,
+      "orders": 702,
+      "revenue": 26435.35,
+      "retention_pct": 6.43,
+      "revenue_per_cohort_customer": 3.12,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 12,
+      "cohort_customers": 8476,
+      "active_customers": 568,
+      "orders": 714,
+      "revenue": 27745.88,
+      "retention_pct": 6.7,
+      "revenue_per_cohort_customer": 3.27,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 13,
+      "cohort_customers": 8476,
+      "active_customers": 718,
+      "orders": 937,
+      "revenue": 36673.07,
+      "retention_pct": 8.47,
+      "revenue_per_cohort_customer": 4.33,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 14,
+      "cohort_customers": 8476,
+      "active_customers": 545,
+      "orders": 695,
+      "revenue": 25033.17,
+      "retention_pct": 6.43,
+      "revenue_per_cohort_customer": 2.95,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 15,
+      "cohort_customers": 8476,
+      "active_customers": 548,
+      "orders": 708,
+      "revenue": 26734.91,
+      "retention_pct": 6.47,
+      "revenue_per_cohort_customer": 3.15,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 16,
+      "cohort_customers": 8476,
+      "active_customers": 551,
+      "orders": 710,
+      "revenue": 27347.55,
+      "retention_pct": 6.5,
+      "revenue_per_cohort_customer": 3.23,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 0,
+      "cohort_customers": 7248,
+      "active_customers": 7248,
+      "orders": 8337,
+      "revenue": 279884.49,
+      "retention_pct": 100.0,
+      "revenue_per_cohort_customer": 38.62,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 1,
+      "cohort_customers": 7248,
+      "active_customers": 1032,
+      "orders": 1362,
+      "revenue": 52921.29,
+      "retention_pct": 14.24,
+      "revenue_per_cohort_customer": 7.3,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 2,
+      "cohort_customers": 7248,
+      "active_customers": 752,
+      "orders": 932,
+      "revenue": 34653.18,
+      "retention_pct": 10.38,
+      "revenue_per_cohort_customer": 4.78,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 3,
+      "cohort_customers": 7248,
+      "active_customers": 756,
+      "orders": 948,
+      "revenue": 35432.9,
+      "retention_pct": 10.43,
+      "revenue_per_cohort_customer": 4.89,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 4,
+      "cohort_customers": 7248,
+      "active_customers": 674,
+      "orders": 865,
+      "revenue": 37874.29,
+      "retention_pct": 9.3,
+      "revenue_per_cohort_customer": 5.23,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 5,
+      "cohort_customers": 7248,
+      "active_customers": 564,
+      "orders": 702,
+      "revenue": 27255.6,
+      "retention_pct": 7.78,
+      "revenue_per_cohort_customer": 3.76,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 6,
+      "cohort_customers": 7248,
+      "active_customers": 561,
+      "orders": 690,
+      "revenue": 25301.87,
+      "retention_pct": 7.74,
+      "revenue_per_cohort_customer": 3.49,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 7,
+      "cohort_customers": 7248,
+      "active_customers": 579,
+      "orders": 710,
+      "revenue": 25221.94,
+      "retention_pct": 7.99,
+      "revenue_per_cohort_customer": 3.48,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 8,
+      "cohort_customers": 7248,
+      "active_customers": 634,
+      "orders": 817,
+      "revenue": 37164.77,
+      "retention_pct": 8.75,
+      "revenue_per_cohort_customer": 5.13,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 9,
+      "cohort_customers": 7248,
+      "active_customers": 569,
+      "orders": 730,
+      "revenue": 27746.81,
+      "retention_pct": 7.85,
+      "revenue_per_cohort_customer": 3.83,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 10,
+      "cohort_customers": 7248,
+      "active_customers": 464,
+      "orders": 598,
+      "revenue": 23106.79,
+      "retention_pct": 6.4,
+      "revenue_per_cohort_customer": 3.19,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 11,
+      "cohort_customers": 7248,
+      "active_customers": 472,
+      "orders": 601,
+      "revenue": 24062.96,
+      "retention_pct": 6.51,
+      "revenue_per_cohort_customer": 3.32,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 12,
+      "cohort_customers": 7248,
+      "active_customers": 678,
+      "orders": 864,
+      "revenue": 35168.34,
+      "retention_pct": 9.35,
+      "revenue_per_cohort_customer": 4.85,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 13,
+      "cohort_customers": 7248,
+      "active_customers": 420,
+      "orders": 520,
+      "revenue": 19209.45,
+      "retention_pct": 5.79,
+      "revenue_per_cohort_customer": 2.65,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 14,
+      "cohort_customers": 7248,
+      "active_customers": 443,
+      "orders": 560,
+      "revenue": 20031.91,
+      "retention_pct": 6.11,
+      "revenue_per_cohort_customer": 2.76,
+      "fully_observed": 1
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 15,
+      "cohort_customers": 7248,
+      "active_customers": 457,
+      "orders": 573,
+      "revenue": 21509.67,
+      "retention_pct": 6.31,
+      "revenue_per_cohort_customer": 2.97,
+      "fully_observed": 1
+    }
+  ],
+  "cohort_cumulative_revenue": [
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 0,
+      "cohort_customers": 7846,
+      "revenue": 299060.17,
+      "revenue_per_customer": 38.12,
+      "cumulative_revenue": 299060.17,
+      "cumulative_revenue_per_customer": 38.12
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 1,
+      "cohort_customers": 7846,
+      "revenue": 61041.69,
+      "revenue_per_customer": 7.78,
+      "cumulative_revenue": 360101.86,
+      "cumulative_revenue_per_customer": 45.9
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 2,
+      "cohort_customers": 7846,
+      "revenue": 50683.75,
+      "revenue_per_customer": 6.46,
+      "cumulative_revenue": 410785.61,
+      "cumulative_revenue_per_customer": 52.36
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 3,
+      "cohort_customers": 7846,
+      "revenue": 40655.5,
+      "revenue_per_customer": 5.18,
+      "cumulative_revenue": 451441.11,
+      "cumulative_revenue_per_customer": 57.54
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 4,
+      "cohort_customers": 7846,
+      "revenue": 34973.56,
+      "revenue_per_customer": 4.46,
+      "cumulative_revenue": 486414.67,
+      "cumulative_revenue_per_customer": 62.0
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 5,
+      "cohort_customers": 7846,
+      "revenue": 34397.9,
+      "revenue_per_customer": 4.38,
+      "cumulative_revenue": 520812.57,
+      "cumulative_revenue_per_customer": 66.38
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 6,
+      "cohort_customers": 7846,
+      "revenue": 41009.7,
+      "revenue_per_customer": 5.23,
+      "cumulative_revenue": 561822.27,
+      "cumulative_revenue_per_customer": 71.61
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 7,
+      "cohort_customers": 7846,
+      "revenue": 29804.54,
+      "revenue_per_customer": 3.8,
+      "cumulative_revenue": 591626.81,
+      "cumulative_revenue_per_customer": 75.4
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 8,
+      "cohort_customers": 7846,
+      "revenue": 27306.22,
+      "revenue_per_customer": 3.48,
+      "cumulative_revenue": 618933.03,
+      "cumulative_revenue_per_customer": 78.89
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 9,
+      "cohort_customers": 7846,
+      "revenue": 32100.3,
+      "revenue_per_customer": 4.09,
+      "cumulative_revenue": 651033.33,
+      "cumulative_revenue_per_customer": 82.98
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 10,
+      "cohort_customers": 7846,
+      "revenue": 39459.83,
+      "revenue_per_customer": 5.03,
+      "cumulative_revenue": 690493.16,
+      "cumulative_revenue_per_customer": 88.01
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 11,
+      "cohort_customers": 7846,
+      "revenue": 33569.08,
+      "revenue_per_customer": 4.28,
+      "cumulative_revenue": 724062.24,
+      "cumulative_revenue_per_customer": 92.28
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 12,
+      "cohort_customers": 7846,
+      "revenue": 27214.64,
+      "revenue_per_customer": 3.47,
+      "cumulative_revenue": 751276.88,
+      "cumulative_revenue_per_customer": 95.75
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 13,
+      "cohort_customers": 7846,
+      "revenue": 25288.12,
+      "revenue_per_customer": 3.22,
+      "cumulative_revenue": 776565.0,
+      "cumulative_revenue_per_customer": 98.98
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 14,
+      "cohort_customers": 7846,
+      "revenue": 37128.74,
+      "revenue_per_customer": 4.73,
+      "cumulative_revenue": 813693.74,
+      "cumulative_revenue_per_customer": 103.71
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 15,
+      "cohort_customers": 7846,
+      "revenue": 21988.9,
+      "revenue_per_customer": 2.8,
+      "cumulative_revenue": 835682.64,
+      "cumulative_revenue_per_customer": 106.51
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 16,
+      "cohort_customers": 7846,
+      "revenue": 24222.84,
+      "revenue_per_customer": 3.09,
+      "cumulative_revenue": 859905.48,
+      "cumulative_revenue_per_customer": 109.6
+    },
+    {
+      "cohort_month": "1997-01",
+      "months_since_first": 17,
+      "cohort_customers": 7846,
+      "revenue": 27252.08,
+      "revenue_per_customer": 3.47,
+      "cumulative_revenue": 887157.56,
+      "cumulative_revenue_per_customer": 113.07
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 0,
+      "cohort_customers": 8476,
+      "revenue": 318548.34,
+      "revenue_per_customer": 37.58,
+      "cumulative_revenue": 318548.34,
+      "cumulative_revenue_per_customer": 37.58
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 1,
+      "cohort_customers": 8476,
+      "revenue": 62587.03,
+      "revenue_per_customer": 7.38,
+      "cumulative_revenue": 381135.37,
+      "cumulative_revenue_per_customer": 44.97
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 2,
+      "cohort_customers": 8476,
+      "revenue": 49247.7,
+      "revenue_per_customer": 5.81,
+      "cumulative_revenue": 430383.07,
+      "cumulative_revenue_per_customer": 50.78
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 3,
+      "cohort_customers": 8476,
+      "revenue": 38306.56,
+      "revenue_per_customer": 4.52,
+      "cumulative_revenue": 468689.63,
+      "cumulative_revenue_per_customer": 55.3
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 4,
+      "cohort_customers": 8476,
+      "revenue": 38565.07,
+      "revenue_per_customer": 4.55,
+      "cumulative_revenue": 507254.7,
+      "cumulative_revenue_per_customer": 59.85
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 5,
+      "cohort_customers": 8476,
+      "revenue": 43194.89,
+      "revenue_per_customer": 5.1,
+      "cumulative_revenue": 550449.59,
+      "cumulative_revenue_per_customer": 64.94
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 6,
+      "cohort_customers": 8476,
+      "revenue": 31307.55,
+      "revenue_per_customer": 3.69,
+      "cumulative_revenue": 581757.14,
+      "cumulative_revenue_per_customer": 68.64
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 7,
+      "cohort_customers": 8476,
+      "revenue": 29340.71,
+      "revenue_per_customer": 3.46,
+      "cumulative_revenue": 611097.85,
+      "cumulative_revenue_per_customer": 72.1
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 8,
+      "cohort_customers": 8476,
+      "revenue": 32458.53,
+      "revenue_per_customer": 3.83,
+      "cumulative_revenue": 643556.38,
+      "cumulative_revenue_per_customer": 75.93
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 9,
+      "cohort_customers": 8476,
+      "revenue": 38824.04,
+      "revenue_per_customer": 4.58,
+      "cumulative_revenue": 682380.42,
+      "cumulative_revenue_per_customer": 80.51
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 10,
+      "cohort_customers": 8476,
+      "revenue": 34261.46,
+      "revenue_per_customer": 4.04,
+      "cumulative_revenue": 716641.88,
+      "cumulative_revenue_per_customer": 84.55
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 11,
+      "cohort_customers": 8476,
+      "revenue": 26435.35,
+      "revenue_per_customer": 3.12,
+      "cumulative_revenue": 743077.23,
+      "cumulative_revenue_per_customer": 87.67
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 12,
+      "cohort_customers": 8476,
+      "revenue": 27745.88,
+      "revenue_per_customer": 3.27,
+      "cumulative_revenue": 770823.11,
+      "cumulative_revenue_per_customer": 90.94
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 13,
+      "cohort_customers": 8476,
+      "revenue": 36673.07,
+      "revenue_per_customer": 4.33,
+      "cumulative_revenue": 807496.18,
+      "cumulative_revenue_per_customer": 95.27
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 14,
+      "cohort_customers": 8476,
+      "revenue": 25033.17,
+      "revenue_per_customer": 2.95,
+      "cumulative_revenue": 832529.35,
+      "cumulative_revenue_per_customer": 98.22
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 15,
+      "cohort_customers": 8476,
+      "revenue": 26734.91,
+      "revenue_per_customer": 3.15,
+      "cumulative_revenue": 859264.26,
+      "cumulative_revenue_per_customer": 101.38
+    },
+    {
+      "cohort_month": "1997-02",
+      "months_since_first": 16,
+      "cohort_customers": 8476,
+      "revenue": 27347.55,
+      "revenue_per_customer": 3.23,
+      "cumulative_revenue": 886611.81,
+      "cumulative_revenue_per_customer": 104.6
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 0,
+      "cohort_customers": 7248,
+      "revenue": 279884.49,
+      "revenue_per_customer": 38.62,
+      "cumulative_revenue": 279884.49,
+      "cumulative_revenue_per_customer": 38.62
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 1,
+      "cohort_customers": 7248,
+      "revenue": 52921.29,
+      "revenue_per_customer": 7.3,
+      "cumulative_revenue": 332805.78,
+      "cumulative_revenue_per_customer": 45.92
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 2,
+      "cohort_customers": 7248,
+      "revenue": 34653.18,
+      "revenue_per_customer": 4.78,
+      "cumulative_revenue": 367458.96,
+      "cumulative_revenue_per_customer": 50.7
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 3,
+      "cohort_customers": 7248,
+      "revenue": 35432.9,
+      "revenue_per_customer": 4.89,
+      "cumulative_revenue": 402891.86,
+      "cumulative_revenue_per_customer": 55.59
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 4,
+      "cohort_customers": 7248,
+      "revenue": 37874.29,
+      "revenue_per_customer": 5.23,
+      "cumulative_revenue": 440766.15,
+      "cumulative_revenue_per_customer": 60.81
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 5,
+      "cohort_customers": 7248,
+      "revenue": 27255.6,
+      "revenue_per_customer": 3.76,
+      "cumulative_revenue": 468021.75,
+      "cumulative_revenue_per_customer": 64.57
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 6,
+      "cohort_customers": 7248,
+      "revenue": 25301.87,
+      "revenue_per_customer": 3.49,
+      "cumulative_revenue": 493323.62,
+      "cumulative_revenue_per_customer": 68.06
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 7,
+      "cohort_customers": 7248,
+      "revenue": 25221.94,
+      "revenue_per_customer": 3.48,
+      "cumulative_revenue": 518545.56,
+      "cumulative_revenue_per_customer": 71.54
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 8,
+      "cohort_customers": 7248,
+      "revenue": 37164.77,
+      "revenue_per_customer": 5.13,
+      "cumulative_revenue": 555710.33,
+      "cumulative_revenue_per_customer": 76.67
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 9,
+      "cohort_customers": 7248,
+      "revenue": 27746.81,
+      "revenue_per_customer": 3.83,
+      "cumulative_revenue": 583457.14,
+      "cumulative_revenue_per_customer": 80.5
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 10,
+      "cohort_customers": 7248,
+      "revenue": 23106.79,
+      "revenue_per_customer": 3.19,
+      "cumulative_revenue": 606563.93,
+      "cumulative_revenue_per_customer": 83.69
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 11,
+      "cohort_customers": 7248,
+      "revenue": 24062.96,
+      "revenue_per_customer": 3.32,
+      "cumulative_revenue": 630626.89,
+      "cumulative_revenue_per_customer": 87.01
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 12,
+      "cohort_customers": 7248,
+      "revenue": 35168.34,
+      "revenue_per_customer": 4.85,
+      "cumulative_revenue": 665795.23,
+      "cumulative_revenue_per_customer": 91.86
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 13,
+      "cohort_customers": 7248,
+      "revenue": 19209.45,
+      "revenue_per_customer": 2.65,
+      "cumulative_revenue": 685004.68,
+      "cumulative_revenue_per_customer": 94.51
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 14,
+      "cohort_customers": 7248,
+      "revenue": 20031.91,
+      "revenue_per_customer": 2.76,
+      "cumulative_revenue": 705036.59,
+      "cumulative_revenue_per_customer": 97.27
+    },
+    {
+      "cohort_month": "1997-03",
+      "months_since_first": 15,
+      "cohort_customers": 7248,
+      "revenue": 21509.67,
+      "revenue_per_customer": 2.97,
+      "cumulative_revenue": 726546.26,
+      "cumulative_revenue_per_customer": 100.24
+    }
+  ],
+  "purchase_frequency": [
+    {
+      "order_band": "1 order",
+      "customers": 12054,
+      "pct_of_customers": 51.1,
+      "revenue": 367602.29,
+      "pct_of_revenue": 14.7,
+      "avg_revenue_per_customer": 30.5
+    },
+    {
+      "order_band": "2 orders",
+      "customers": 4040,
+      "pct_of_customers": 17.1,
+      "revenue": 270129.63,
+      "pct_of_revenue": 10.8,
+      "avg_revenue_per_customer": 66.86
+    },
+    {
+      "order_band": "3 orders",
+      "customers": 2205,
+      "pct_of_customers": 9.4,
+      "revenue": 229597.26,
+      "pct_of_revenue": 9.2,
+      "avg_revenue_per_customer": 104.13
+    },
+    {
+      "order_band": "4-5 orders",
+      "customers": 2427,
+      "pct_of_customers": 10.3,
+      "revenue": 389200.57,
+      "pct_of_revenue": 15.6,
+      "avg_revenue_per_customer": 160.36
+    },
+    {
+      "order_band": "6-10 orders",
+      "customers": 1952,
+      "pct_of_customers": 8.3,
+      "revenue": 559105.22,
+      "pct_of_revenue": 22.4,
+      "avg_revenue_per_customer": 286.43
+    },
+    {
+      "order_band": "11+ orders",
+      "customers": 892,
+      "pct_of_customers": 3.8,
+      "revenue": 684680.66,
+      "pct_of_revenue": 27.4,
+      "avg_revenue_per_customer": 767.58
+    }
+  ],
+  "segments": [
+    {
+      "segment": "Best customers",
+      "customers": 4356,
+      "pct_of_customers": 18.5,
+      "revenue": 1561547.72,
+      "pct_of_revenue": 62.5,
+      "avg_revenue_per_customer": 358.48,
+      "avg_orders": 8.43,
+      "avg_days_first_to_last_order": 382.0
+    },
+    {
+      "segment": "One-time buyer",
+      "customers": 12054,
+      "pct_of_customers": 51.1,
+      "revenue": 367602.29,
+      "pct_of_revenue": 14.7,
+      "avg_revenue_per_customer": 30.5,
+      "avg_orders": 1.0,
+      "avg_days_first_to_last_order": 0.0
+    },
+    {
+      "segment": "Light repeat",
+      "customers": 4843,
+      "pct_of_customers": 20.5,
+      "revenue": 257542.52,
+      "pct_of_revenue": 10.3,
+      "avg_revenue_per_customer": 53.18,
+      "avg_orders": 2.29,
+      "avg_days_first_to_last_order": 189.0
+    },
+    {
+      "segment": "Occasional, higher value",
+      "customers": 1402,
+      "pct_of_customers": 5.9,
+      "revenue": 242184.37,
+      "pct_of_revenue": 9.7,
+      "avg_revenue_per_customer": 172.74,
+      "avg_orders": 2.55,
+      "avg_days_first_to_last_order": 214.0
+    },
+    {
+      "segment": "Frequent, lower value",
+      "customers": 915,
+      "pct_of_customers": 3.9,
+      "revenue": 71438.73,
+      "pct_of_revenue": 2.9,
+      "avg_revenue_per_customer": 78.08,
+      "avg_orders": 4.52,
+      "avg_days_first_to_last_order": 331.0
+    }
+  ],
+  "time_to_second_order": [
+    {
+      "time_to_second_order": "a. Within 1 month",
+      "customers": 4115,
+      "pct_of_repeat_buyers": 35.7,
+      "avg_days_in_band": 13.0
+    },
+    {
+      "time_to_second_order": "b. 1-2 months",
+      "customers": 1814,
+      "pct_of_repeat_buyers": 15.8,
+      "avg_days_in_band": 44.0
+    },
+    {
+      "time_to_second_order": "c. 2-3 months",
+      "customers": 958,
+      "pct_of_repeat_buyers": 8.3,
+      "avg_days_in_band": 74.0
+    },
+    {
+      "time_to_second_order": "d. 3-6 months",
+      "customers": 1940,
+      "pct_of_repeat_buyers": 16.8,
+      "avg_days_in_band": 133.0
+    },
+    {
+      "time_to_second_order": "e. 6-12 months",
+      "customers": 1983,
+      "pct_of_repeat_buyers": 17.2,
+      "avg_days_in_band": 261.0
+    },
+    {
+      "time_to_second_order": "f. Over 12 months",
+      "customers": 706,
+      "pct_of_repeat_buyers": 6.1,
+      "avg_days_in_band": 424.0
+    }
+  ],
+  "revenue_concentration": [
+    {
+      "spend_decile": 1,
+      "customers": 2357,
+      "revenue": 1273728.95,
+      "avg_spend": 540.4,
+      "avg_orders": 10.39,
+      "min_spend": 242.35,
+      "max_spend": 13990.93,
+      "pct_of_revenue": 50.9,
+      "cumulative_pct_of_revenue": 50.9
+    },
+    {
+      "spend_decile": 2,
+      "customers": 2357,
+      "revenue": 420919.55,
+      "avg_spend": 178.58,
+      "avg_orders": 4.8,
+      "min_spend": 133.95,
+      "max_spend": 242.33,
+      "pct_of_revenue": 16.8,
+      "cumulative_pct_of_revenue": 67.8
+    },
+    {
+      "spend_decile": 3,
+      "customers": 2357,
+      "revenue": 254371.46,
+      "avg_spend": 107.92,
+      "avg_orders": 3.3,
+      "min_spend": 86.42,
+      "max_spend": 133.95,
+      "pct_of_revenue": 10.2,
+      "cumulative_pct_of_revenue": 78.0
+    },
+    {
+      "spend_decile": 4,
+      "customers": 2357,
+      "revenue": 170200.04,
+      "avg_spend": 72.21,
+      "avg_orders": 2.38,
+      "min_spend": 59.93,
+      "max_spend": 86.41,
+      "pct_of_revenue": 6.8,
+      "cumulative_pct_of_revenue": 84.8
+    },
+    {
+      "spend_decile": 5,
+      "customers": 2357,
+      "revenue": 120844.97,
+      "avg_spend": 51.27,
+      "avg_orders": 1.86,
+      "min_spend": 43.41,
+      "max_spend": 59.92,
+      "pct_of_revenue": 4.8,
+      "cumulative_pct_of_revenue": 89.6
+    },
+    {
+      "spend_decile": 6,
+      "customers": 2357,
+      "revenue": 88653.73,
+      "avg_spend": 37.61,
+      "avg_orders": 1.51,
+      "min_spend": 31.35,
+      "max_spend": 43.38,
+      "pct_of_revenue": 3.5,
+      "cumulative_pct_of_revenue": 93.1
+    },
+    {
+      "spend_decile": 7,
+      "customers": 2357,
+      "revenue": 66323.94,
+      "avg_spend": 28.14,
+      "avg_orders": 1.3,
+      "min_spend": 24.98,
+      "max_spend": 31.35,
+      "pct_of_revenue": 2.7,
+      "cumulative_pct_of_revenue": 95.8
+    },
+    {
+      "spend_decile": 8,
+      "customers": 2357,
+      "revenue": 46635.01,
+      "avg_spend": 19.79,
+      "avg_orders": 1.13,
+      "min_spend": 15.36,
+      "max_spend": 24.98,
+      "pct_of_revenue": 1.9,
+      "cumulative_pct_of_revenue": 97.7
+    },
+    {
+      "spend_decile": 9,
+      "customers": 2357,
+      "revenue": 34199.78,
+      "avg_spend": 14.51,
+      "avg_orders": 1.0,
+      "min_spend": 12.97,
+      "max_spend": 15.36,
+      "pct_of_revenue": 1.4,
+      "cumulative_pct_of_revenue": 99.0
+    },
+    {
+      "spend_decile": 10,
+      "customers": 2357,
+      "revenue": 24438.2,
+      "avg_spend": 10.37,
+      "avg_orders": 1.0,
+      "min_spend": 0.0,
+      "max_spend": 12.97,
+      "pct_of_revenue": 1.0,
+      "cumulative_pct_of_revenue": 100.0
+    }
+  ],
+  "value_by_order_number": [
+    {
+      "order_number": 1,
+      "customers_reaching_this_order": 23570,
+      "avg_order_value": 33.29,
+      "avg_cds": 2.18,
+      "revenue": 784560.61,
+      "customers_reaching_next_order": 11516.0,
+      "drop_off_pct": 51.1
+    },
+    {
+      "order_number": 2,
+      "customers_reaching_this_order": 11516,
+      "avg_order_value": 36.05,
+      "avg_cds": 2.43,
+      "revenue": 415170.25,
+      "customers_reaching_next_order": 7476.0,
+      "drop_off_pct": 35.1
+    },
+    {
+      "order_number": 3,
+      "customers_reaching_this_order": 7476,
+      "avg_order_value": 36.83,
+      "avg_cds": 2.5,
+      "revenue": 275303.79,
+      "customers_reaching_next_order": 5271.0,
+      "drop_off_pct": 29.5
+    },
+    {
+      "order_number": 4,
+      "customers_reaching_this_order": 5271,
+      "avg_order_value": 38.34,
+      "avg_cds": 2.6,
+      "revenue": 202097.94,
+      "customers_reaching_next_order": 3835.0,
+      "drop_off_pct": 27.2
+    },
+    {
+      "order_number": 5,
+      "customers_reaching_this_order": 3835,
+      "avg_order_value": 39.08,
+      "avg_cds": 2.65,
+      "revenue": 149883.74,
+      "customers_reaching_next_order": 2844.0,
+      "drop_off_pct": 25.8
+    },
+    {
+      "order_number": 6,
+      "customers_reaching_this_order": 2844,
+      "avg_order_value": 39.46,
+      "avg_cds": 2.66,
+      "revenue": 112217.04,
+      "customers_reaching_next_order": 2201.0,
+      "drop_off_pct": 22.6
+    },
+    {
+      "order_number": 7,
+      "customers_reaching_this_order": 2201,
+      "avg_order_value": 40.33,
+      "avg_cds": 2.72,
+      "revenue": 88764.18,
+      "customers_reaching_next_order": 1731.0,
+      "drop_off_pct": 21.4
+    },
+    {
+      "order_number": 8,
+      "customers_reaching_this_order": 1731,
+      "avg_order_value": 39.35,
+      "avg_cds": 2.66,
+      "revenue": 68118.25,
+      "customers_reaching_next_order": 1353.0,
+      "drop_off_pct": 21.8
+    },
+    {
+      "order_number": 9,
+      "customers_reaching_this_order": 1353,
+      "avg_order_value": 42.29,
+      "avg_cds": 2.84,
+      "revenue": 57224.29,
+      "customers_reaching_next_order": 1074.0,
+      "drop_off_pct": 20.6
+    },
+    {
+      "order_number": 10,
+      "customers_reaching_this_order": 1074,
+      "avg_order_value": 43.3,
+      "avg_cds": 2.9,
+      "revenue": 46501.76,
+      "customers_reaching_next_order": 892.0,
+      "drop_off_pct": 16.9
+    },
+    {
+      "order_number": 11,
+      "customers_reaching_this_order": 892,
+      "avg_order_value": 42.02,
+      "avg_cds": 2.85,
+      "revenue": 37480.59,
+      "customers_reaching_next_order": 736.0,
+      "drop_off_pct": 17.5
+    },
+    {
+      "order_number": 12,
+      "customers_reaching_this_order": 736,
+      "avg_order_value": 41.57,
+      "avg_cds": 2.83,
+      "revenue": 30592.31,
+      "customers_reaching_next_order": null,
+      "drop_off_pct": null
+    }
+  ],
+  "monthly": [
+    {
+      "order_month": "1997-01",
+      "new_customers": 7846,
+      "returning_customers": 753,
+      "active_customers": 7846,
+      "first_orders": 7846,
+      "repeat_orders": 921,
+      "new_customer_revenue": 266218.62,
+      "returning_customer_revenue": 32841.55,
+      "total_revenue": 299060.17,
+      "avg_order_value": 34.11
+    },
+    {
+      "order_month": "1997-02",
+      "new_customers": 8476,
+      "returning_customers": 1951,
+      "active_customers": 9633,
+      "first_orders": 8476,
+      "repeat_orders": 2569,
+      "new_customer_revenue": 280933.44,
+      "returning_customer_revenue": 98656.59,
+      "total_revenue": 379590.03,
+      "avg_order_value": 34.37
+    },
+    {
+      "order_month": "1997-03",
+      "new_customers": 7248,
+      "returning_customers": 3150,
+      "active_customers": 9524,
+      "first_orders": 7248,
+      "repeat_orders": 4081,
+      "new_customer_revenue": 237408.55,
+      "returning_customer_revenue": 155746.72,
+      "total_revenue": 393155.27,
+      "avg_order_value": 34.7
+    },
+    {
+      "order_month": "1997-04",
+      "new_customers": 0,
+      "returning_customers": 2822,
+      "active_customers": 2822,
+      "first_orders": 0,
+      "repeat_orders": 3690,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 142824.49,
+      "total_revenue": 142824.49,
+      "avg_order_value": 38.71
+    },
+    {
+      "order_month": "1997-05",
+      "new_customers": 0,
+      "returning_customers": 2214,
+      "active_customers": 2214,
+      "first_orders": 0,
+      "repeat_orders": 2824,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 107933.3,
+      "total_revenue": 107933.3,
+      "avg_order_value": 38.22
+    },
+    {
+      "order_month": "1997-06",
+      "new_customers": 0,
+      "returning_customers": 2339,
+      "active_customers": 2339,
+      "first_orders": 0,
+      "repeat_orders": 2959,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 108395.87,
+      "total_revenue": 108395.87,
+      "avg_order_value": 36.63
+    },
+    {
+      "order_month": "1997-07",
+      "new_customers": 0,
+      "returning_customers": 2180,
+      "active_customers": 2180,
+      "first_orders": 0,
+      "repeat_orders": 2840,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 122078.88,
+      "total_revenue": 122078.88,
+      "avg_order_value": 42.99
+    },
+    {
+      "order_month": "1997-08",
+      "new_customers": 0,
+      "returning_customers": 1772,
+      "active_customers": 1772,
+      "first_orders": 0,
+      "repeat_orders": 2233,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 88367.69,
+      "total_revenue": 88367.69,
+      "avg_order_value": 39.57
+    },
+    {
+      "order_month": "1997-09",
+      "new_customers": 0,
+      "returning_customers": 1739,
+      "active_customers": 1739,
+      "first_orders": 0,
+      "repeat_orders": 2220,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 81948.8,
+      "total_revenue": 81948.8,
+      "avg_order_value": 36.91
+    },
+    {
+      "order_month": "1997-10",
+      "new_customers": 0,
+      "returning_customers": 1839,
+      "active_customers": 1839,
+      "first_orders": 0,
+      "repeat_orders": 2397,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 89780.77,
+      "total_revenue": 89780.77,
+      "avg_order_value": 37.46
+    },
+    {
+      "order_month": "1997-11",
+      "new_customers": 0,
+      "returning_customers": 2028,
+      "active_customers": 2028,
+      "first_orders": 0,
+      "repeat_orders": 2620,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 115448.64,
+      "total_revenue": 115448.64,
+      "avg_order_value": 44.06
+    },
+    {
+      "order_month": "1997-12",
+      "new_customers": 0,
+      "returning_customers": 1864,
+      "active_customers": 1864,
+      "first_orders": 0,
+      "repeat_orders": 2395,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 95577.35,
+      "total_revenue": 95577.35,
+      "avg_order_value": 39.91
+    },
+    {
+      "order_month": "1998-01",
+      "new_customers": 0,
+      "returning_customers": 1537,
+      "active_customers": 1537,
+      "first_orders": 0,
+      "repeat_orders": 1965,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 76756.78,
+      "total_revenue": 76756.78,
+      "avg_order_value": 39.06
+    },
+    {
+      "order_month": "1998-02",
+      "new_customers": 0,
+      "returning_customers": 1551,
+      "active_customers": 1551,
+      "first_orders": 0,
+      "repeat_orders": 1957,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 77096.96,
+      "total_revenue": 77096.96,
+      "avg_order_value": 39.4
+    },
+    {
+      "order_month": "1998-03",
+      "new_customers": 0,
+      "returning_customers": 2060,
+      "active_customers": 2060,
+      "first_orders": 0,
+      "repeat_orders": 2686,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 108970.15,
+      "total_revenue": 108970.15,
+      "avg_order_value": 40.57
+    },
+    {
+      "order_month": "1998-04",
+      "new_customers": 0,
+      "returning_customers": 1437,
+      "active_customers": 1437,
+      "first_orders": 0,
+      "repeat_orders": 1806,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 66231.52,
+      "total_revenue": 66231.52,
+      "avg_order_value": 36.67
+    },
+    {
+      "order_month": "1998-05",
+      "new_customers": 0,
+      "returning_customers": 1488,
+      "active_customers": 1488,
+      "first_orders": 0,
+      "repeat_orders": 1903,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 70989.66,
+      "total_revenue": 70989.66,
+      "avg_order_value": 37.3
+    },
+    {
+      "order_month": "1998-06",
+      "new_customers": 0,
+      "returning_customers": 1506,
+      "active_customers": 1506,
+      "first_orders": 0,
+      "repeat_orders": 1955,
+      "new_customer_revenue": 0.0,
+      "returning_customer_revenue": 76109.3,
+      "total_revenue": 76109.3,
+      "avg_order_value": 38.93
+    }
+  ],
+  "cohort_summary": [
+    {
+      "cohort_month": "1997-01",
+      "cohort_customers": 7846,
+      "repeat_buyers": 3870,
+      "repeat_buyer_pct": 49.3,
+      "avg_orders_all_time": 3.0,
+      "avg_revenue_all_time": 113.07,
+      "avg_orders_first_15_months": 2.83,
+      "avg_revenue_first_15_months": 106.51
+    },
+    {
+      "cohort_month": "1997-02",
+      "cohort_customers": 8476,
+      "repeat_buyers": 4081,
+      "repeat_buyer_pct": 48.1,
+      "avg_orders_all_time": 2.86,
+      "avg_revenue_all_time": 104.6,
+      "avg_orders_first_15_months": 2.78,
+      "avg_revenue_first_15_months": 101.38
+    },
+    {
+      "cohort_month": "1997-03",
+      "cohort_customers": 7248,
+      "repeat_buyers": 3565,
+      "repeat_buyer_pct": 49.2,
+      "avg_orders_all_time": 2.73,
+      "avg_revenue_all_time": 100.24,
+      "avg_orders_first_15_months": 2.73,
+      "avg_revenue_first_15_months": 100.24
+    }
+  ]
+}
