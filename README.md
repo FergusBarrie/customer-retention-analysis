@@ -164,10 +164,9 @@ first real decision in the project.
 2.6% of orders have more than one line. Measuring purchase frequency from `transactions`
 would overstate how often people bought and understate order value.
 
-## Honest note on this project
+## Note on this project
 
-I built this to learn how cohort analysis actually works — how the month index is
-constructed, why the cohort table has ragged edges, and what retention does and does not
-mean when there is no subscription. The [learning guide](LEARNING_GUIDE.md) walks through
-all of it, including a bug I had to fix in my own export script. I can talk through any
-query in this repository line by line.
+This is a learning project built with AI assistance. The analysis is reproducible from the
+scripts here and the write-up only claims what the data supports, but the SQL and Python
+were not written by me. The [learning guide](LEARNING_GUIDE.md) explains how each part
+works.
